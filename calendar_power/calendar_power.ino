@@ -97,30 +97,44 @@ void check_calendar() {
       header.toUpperCase();
       if (header.startsWith("DATE: ")) {
         MMM = header.substring(14, 17);
-        if(MMM == "JAN")
+        
+        if(MMM == "JAN") {
           MM = 1;
-        if(MMM == "FEB")
+        } 
+        else if(MMM == "FEB") {
           MM = 2;
-        if(MMM == "MAR")
+        }
+        else if(MMM == "MAR") {
           MM = 3;
-        if(MMM == "APR")
+        }
+        else if(MMM == "APR") {
           MM = 4;
-        if(MMM == "MAY")
+        }
+        else if(MMM == "MAY") {
           MM = 5;
-        if(MMM == "JUN")
+        }
+        else if(MMM == "JUN") {
           MM = 6;
-        if(MMM == "JUL")
+        }
+        else if(MMM == "JUL") {
           MM = 7;
-        if(MMM == "AUG")
+        }
+        else if(MMM == "AUG") {
           MM = 8;
-        if(MMM == "SEP")
+        }
+        else if(MMM == "SEP") {
           MM = 9;
-        if(MMM == "OCT")
+        }
+        else if(MMM == "OCT") {
           MM = 10;
-        if(MMM == "NOV")
+        }
+        else if(MMM == "NOV") {
           MM = 11;
-        if(MMM == "DEC")
-          MM = 12;                                        
+        }
+        else if(MMM == "DEC") {
+          MM = 12;
+        }
+        
         // sets the RTC to the date & time retrieved from the header
         rtc.adjust(DateTime(header.substring(17, 22).toInt(), MM, header.substring(11, 13).toInt(), header.substring(23, 25).toInt(), header.substring(26, 28).toInt(), header.substring(29, 31).toInt()));
         now = rtc.now();
