@@ -153,6 +153,8 @@ void check_calendar() {
         Serial.println("Turning Off ...");
         digitalWrite(OUTPIN, HIGH);
         ACTIVE = 0;
+      } else {
+        Serial.println("Already Off ...");
       }
       break;
     } else {
@@ -163,6 +165,8 @@ void check_calendar() {
             Serial.println("Turning On ...");
             digitalWrite(OUTPIN, LOW);
             ACTIVE = 1;
+          } else {
+            Serial.println("Already On ...");
           }
           break;
         }
