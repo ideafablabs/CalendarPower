@@ -149,8 +149,8 @@ void check_calendar() {
             Serial.println("Turning On ...");
             digitalWrite(OUTPIN, LOW);
             ACTIVE = 1;
-            break;
           }
+          break;
         }
       }
     }
