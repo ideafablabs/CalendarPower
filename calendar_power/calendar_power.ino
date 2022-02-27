@@ -1,3 +1,6 @@
+// calendar_power = control a power relay from a vcalendar 2.0 feed
+// 2/26/2022 - sfranzyshen@ for Idea Fab Labs, chico ca
+
 #define USING_AXTLS
 #include <ESP8266WiFi.h>
 
