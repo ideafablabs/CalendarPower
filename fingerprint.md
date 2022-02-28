@@ -5,8 +5,9 @@ It is easy to find the fingerprints, sometimes called thumbprints, for certifica
 ### Chrome
 
 * At the left side of the browser's address bar, click on the lock symbol.
-* In the pop-up dialog box, click Certificate.
-* On the Certificate dialog box, click the Details tab.
+* In the pop-up dialog box, click "connection is secure".
+* Then on the dialog box, click the "Certificate is valid".
+* the Certificate dialog box, click the Details tab.
 * In the list box on the details page, scroll down until the word Thumbprint is visible in the list and then click Thumbprint.
 * The thumbprint will be shown in the textbox below the list box.
 
@@ -14,14 +15,16 @@ It is easy to find the fingerprints, sometimes called thumbprints, for certifica
 
 * At the left side of the browser's address bar, click on the lock symbol.
 * In the pop-up dialog box, click the arrow to the right of Connection to bring up the Site Security page.
-* At the botom of the Site Security page, click More Information.
+* At the botyom of the Site Security page, click More Information.
 * The Security tab should be selected by default. If not, click on the Security tab.
 * Click the View Certificate button to view the Certificate Viewer dialog box.
-* The fingerprints are shown at the bottom of the General tab.
+* The fingerprints are shown at the middle of the Certificate tab. Use the SHA-1 version.
 
 ### Edge
 
 * At the left side of the browser's address bar, click on the lock symbol.
-* In the pop-up dialog box, click the View certificate link.
-* Certificate details will be shown in the Certificate Information panel at the right side of the browser.
-* In the textbox on the Certificate Information panel, scroll down until the fingerprint information is visible.
+* In the pop-up dialog box, click "connection is secure".
+* In the pop-up dialog box, click the View certificate icon.
+* the Certificate dialog box, click the Details tab.
+* In the list box on the details page, scroll down until the word Thumbprint is visible in the list and then click Thumbprint.
+* The thumbprint will be shown in the textbox below the list box.
