@@ -34,7 +34,7 @@ const char* fingerprint = HOSTPRINT;
 
 bool  ACTIVE = 0;
 int   LASTHOUR = 0;
-int   OUTPIN = LED_BUILTIN;
+int   OUTPIN = 0;
 
 void setup() {
   Serial.begin(115200);
