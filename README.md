@@ -9,4 +9,9 @@ Control power from a VCalendar 2.0 Feed using a ESP-01 relay board, USB wall war
 
 ### ToDo
 
-* Finish ToDo List
+* handle maintaining the wifi connection
+* handle server connection failures
+* handle server fingerprint mismatches
+* add network status indicator LED
+* add INTERVAL to vary the frequency for checking the calendar
+* add filesystem (littlefs) and configuration file (upload-able separately from the firmware image)
